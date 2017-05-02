@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col s4">
+    <slider (outerData)="filterUpdate($event, 'volume')" [options]="mockUpSpiderFilter1"></slider>
+  </div>
+  <div class="col s4">
+    <slider (outerData)="filterUpdate($event, 'closeness')" [options]="mockUpSpiderFilter2"></slider>
+  </div>
+  <div class="col s4">
+    <slider (outerData)="filterUpdate($event, 'importance')" [options]="mockUpSpiderFilter3"></slider>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+.navbar-custom{
+  display: inline-block;
+  width:100%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.overwrap{
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.navbar-fixed{
+  width: 100%;
+  position: relative;
+  z-index:1000;
+}

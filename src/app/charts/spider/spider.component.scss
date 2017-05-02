@@ -1,0 +1,43 @@
+.centerSVG{
+  position: absolute;
+  left: 0;
+  right:0;
+  top:  0;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+* /deep/ text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+
+* /deep/ .node circle {
+  fill: #999;
+}
+
+* /deep/ .node text {
+  font: 10px sans-serif;
+}
+
+* /deep/ .node--internal circle {
+  fill: #555;
+}
+
+* /deep/ .node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+* /deep/ .link {
+  fill: none;
+  stroke: #555;
+  stroke-opacity: 0.4;
+  stroke-width: 1.5px;
+}
+
+* /deep/ path {
+  fill: none;
+  stroke: rgba(114, 114, 114, 0.17);
+  stroke-width: 1px;
+}

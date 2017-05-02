@@ -1,0 +1,654 @@
+[
+  {
+    "parent": true,
+    "name": "Allen Wahlberg",
+    "importance": 100,
+    "closeness": 0,
+    "volume": 10,
+    "size": 84
+  },
+  {
+    "name": "Harris Solis",
+    "importance": 100,
+    "closeness": 46,
+    "volume": 94,
+    "size": 84
+  },
+  {
+    "name": "Phoebe Castillo",
+    "importance": 11,
+    "closeness": 81,
+    "volume": 62,
+    "size": 23
+  },
+  {
+    "name": "Hunter Yates",
+    "importance": 60,
+    "closeness": 48,
+    "volume": 5,
+    "size": 59
+  },
+  {
+    "name": "Tamara Harrell",
+    "importance": 74,
+    "closeness": 37,
+    "volume": 95,
+    "size": 77
+  },
+  {
+    "name": "Bass Walsh",
+    "importance": 93,
+    "closeness": 97,
+    "volume": 68,
+    "size": 46
+  },
+  {
+    "name": "Silvia Ball",
+    "importance": 84,
+    "closeness": 92,
+    "volume": 61,
+    "size": 85
+  },
+  {
+    "name": "Petty Hood",
+    "importance": 41,
+    "closeness": 48,
+    "volume": 3,
+    "size": 69
+  },
+  {
+    "name": "Webster Neal",
+    "importance": 67,
+    "closeness": 61,
+    "volume": 77,
+    "size": 87
+  },
+  {
+    "name": "Emma Hopkins",
+    "importance": 93,
+    "closeness": 50,
+    "volume": 0,
+    "size": 29
+  },
+  {
+    "name": "Jocelyn Berry",
+    "importance": 95,
+    "closeness": 44,
+    "volume": 53,
+    "size": 97
+  },
+  {
+    "name": "Guy Richard",
+    "importance": 79,
+    "closeness": 89,
+    "volume": 56,
+    "size": 23
+  },
+  {
+    "name": "Rosario George",
+    "importance": 87,
+    "closeness": 59,
+    "volume": 61,
+    "size": 76
+  },
+  {
+    "name": "Klein Sears",
+    "importance": 72,
+    "closeness": 26,
+    "volume": 47,
+    "size": 25
+  },
+  {
+    "name": "Aimee Murray",
+    "importance": 58,
+    "closeness": 16,
+    "volume": 50,
+    "size": 17
+  },
+  {
+    "name": "Dorthy Hickman",
+    "importance": 39,
+    "closeness": 62,
+    "volume": 66,
+    "size": 52
+  },
+  {
+    "name": "Carlene Cole",
+    "importance": 24,
+    "closeness": 3,
+    "volume": 7,
+    "size": 92
+  },
+  {
+    "name": "Jefferson Hess",
+    "importance": 87,
+    "closeness": 74,
+    "volume": 39,
+    "size": 79
+  },
+  {
+    "name": "Barrera Benton",
+    "importance": 31,
+    "closeness": 71,
+    "volume": 19,
+    "size": 64
+  },
+  {
+    "name": "Lynn Cotton",
+    "importance": 20,
+    "closeness": 60,
+    "volume": 98,
+    "size": 74
+  },
+  {
+    "name": "Wolf Roberts",
+    "importance": 99,
+    "closeness": 21,
+    "volume": 26,
+    "size": 24
+  },
+  {
+    "name": "Snider Knapp",
+    "importance": 65,
+    "closeness": 69,
+    "volume": 28,
+    "size": 5
+  },
+  {
+    "name": "Sexton Kirk",
+    "importance": 25,
+    "closeness": 73,
+    "volume": 71,
+    "size": 49
+  },
+  {
+    "name": "Florine Bradshaw",
+    "importance": 64,
+    "closeness": 36,
+    "volume": 1,
+    "size": 64
+  },
+  {
+    "name": "Concetta Gibbs",
+    "importance": 87,
+    "closeness": 61,
+    "volume": 2,
+    "size": 61
+  },
+  {
+    "name": "Mercado Gardner",
+    "importance": 20,
+    "closeness": 1,
+    "volume": 51,
+    "size": 1
+  },
+  {
+    "name": "Debbie Underwood",
+    "importance": 53,
+    "closeness": 44,
+    "volume": 91,
+    "size": 70
+  },
+  {
+    "name": "Harper Petersen",
+    "importance": 63,
+    "closeness": 39,
+    "volume": 49,
+    "size": 61
+  },
+  {
+    "name": "Winifred Soto",
+    "importance": 34,
+    "closeness": 57,
+    "volume": 86,
+    "size": 64
+  },
+  {
+    "name": "Deleon Hanson",
+    "importance": 49,
+    "closeness": 99,
+    "volume": 68,
+    "size": 53
+  },
+  {
+    "name": "Frances Bradley",
+    "importance": 39,
+    "closeness": 62,
+    "volume": 43,
+    "size": 8
+  },
+  {
+    "name": "Duke Robertson",
+    "importance": 47,
+    "closeness": 17,
+    "volume": 19,
+    "size": 50
+  },
+  {
+    "name": "Charity Grant",
+    "importance": 57,
+    "closeness": 17,
+    "volume": 2,
+    "size": 57
+  },
+  {
+    "name": "Martina Harper",
+    "importance": 38,
+    "closeness": 8,
+    "volume": 44,
+    "size": 11
+  },
+  {
+    "name": "Sutton Bray",
+    "importance": 67,
+    "closeness": 79,
+    "volume": 41,
+    "size": 83
+  },
+  {
+    "name": "Valarie Cervantes",
+    "importance": 50,
+    "closeness": 88,
+    "volume": 0,
+    "size": 6
+  },
+  {
+    "name": "Brigitte Duncan",
+    "importance": 97,
+    "closeness": 98,
+    "volume": 11,
+    "size": 100
+  },
+  {
+    "name": "Mejia Wagner",
+    "importance": 27,
+    "closeness": 53,
+    "volume": 38,
+    "size": 66
+  },
+  {
+    "name": "Jenifer Alexander",
+    "importance": 93,
+    "closeness": 12,
+    "volume": 14,
+    "size": 36
+  },
+  {
+    "name": "Campbell Kent",
+    "importance": 92,
+    "closeness": 48,
+    "volume": 92,
+    "size": 28
+  },
+  {
+    "name": "Avery Cleveland",
+    "importance": 69,
+    "closeness": 93,
+    "volume": 81,
+    "size": 4
+  },
+  {
+    "name": "Sawyer Sosa",
+    "importance": 44,
+    "closeness": 27,
+    "volume": 47,
+    "size": 96
+  },
+  {
+    "name": "Byrd Bernard",
+    "importance": 14,
+    "closeness": 80,
+    "volume": 60,
+    "size": 15
+  },
+  {
+    "name": "Cannon Pope",
+    "importance": 73,
+    "closeness": 100,
+    "volume": 80,
+    "size": 6
+  },
+  {
+    "name": "Kelley Stevens",
+    "importance": 91,
+    "closeness": 33,
+    "volume": 51,
+    "size": 9
+  },
+  {
+    "name": "Skinner Briggs",
+    "importance": 76,
+    "closeness": 88,
+    "volume": 96,
+    "size": 45
+  },
+  {
+    "name": "Keri Higgins",
+    "importance": 27,
+    "closeness": 11,
+    "volume": 10,
+    "size": 76
+  },
+  {
+    "name": "Lynne Mejia",
+    "importance": 60,
+    "closeness": 40,
+    "volume": 33,
+    "size": 45
+  },
+  {
+    "name": "Kenya Roman",
+    "importance": 41,
+    "closeness": 49,
+    "volume": 89,
+    "size": 59
+  },
+  {
+    "name": "Benson Sandoval",
+    "importance": 76,
+    "closeness": 40,
+    "volume": 26,
+    "size": 40
+  },
+  {
+    "name": "Mays Dunn",
+    "importance": 30,
+    "closeness": 5,
+    "volume": 55,
+    "size": 32
+  },
+  {
+    "name": "Karina Valdez",
+    "importance": 75,
+    "closeness": 34,
+    "volume": 41,
+    "size": 60
+  },
+  {
+    "name": "Sims Mullen",
+    "importance": 70,
+    "closeness": 42,
+    "volume": 18,
+    "size": 12
+  },
+  {
+    "name": "Ratliff Francis",
+    "importance": 47,
+    "closeness": 76,
+    "volume": 6,
+    "size": 67
+  },
+  {
+    "name": "Madden Estrada",
+    "importance": 87,
+    "closeness": 34,
+    "volume": 59,
+    "size": 71
+  },
+  {
+    "name": "Haynes Hopper",
+    "importance": 65,
+    "closeness": 38,
+    "volume": 72,
+    "size": 42
+  },
+  {
+    "name": "Ashley Ramos",
+    "importance": 7,
+    "closeness": 88,
+    "volume": 92,
+    "size": 17
+  },
+  {
+    "name": "Weaver Graham",
+    "importance": 62,
+    "closeness": 6,
+    "volume": 18,
+    "size": 67
+  },
+  {
+    "name": "Dora Mcleod",
+    "importance": 63,
+    "closeness": 66,
+    "volume": 85,
+    "size": 60
+  },
+  {
+    "name": "Juarez Taylor",
+    "importance": 15,
+    "closeness": 50,
+    "volume": 31,
+    "size": 46
+  },
+  {
+    "name": "Craft Park",
+    "importance": 25,
+    "closeness": 46,
+    "volume": 87,
+    "size": 77
+  },
+  {
+    "name": "Preston Holt",
+    "importance": 19,
+    "closeness": 84,
+    "volume": 32,
+    "size": 80
+  },
+  {
+    "name": "Mallory Clemons",
+    "importance": 48,
+    "closeness": 4,
+    "volume": 3,
+    "size": 76
+  },
+  {
+    "name": "Grace Young",
+    "importance": 59,
+    "closeness": 30,
+    "volume": 77,
+    "size": 18
+  },
+  {
+    "name": "Mooney Vance",
+    "importance": 67,
+    "closeness": 69,
+    "volume": 48,
+    "size": 13
+  },
+  {
+    "name": "Fuller Bruce",
+    "importance": 19,
+    "closeness": 74,
+    "volume": 50,
+    "size": 21
+  },
+  {
+    "name": "Best Davenport",
+    "importance": 24,
+    "closeness": 27,
+    "volume": 7,
+    "size": 1
+  },
+  {
+    "name": "Eula Lynn",
+    "importance": 5,
+    "closeness": 12,
+    "volume": 41,
+    "size": 54
+  },
+  {
+    "name": "Alford Powers",
+    "importance": 60,
+    "closeness": 45,
+    "volume": 73,
+    "size": 80
+  },
+  {
+    "name": "Calhoun Guzman",
+    "importance": 68,
+    "closeness": 29,
+    "volume": 54,
+    "size": 9
+  },
+  {
+    "name": "Delaney Lambert",
+    "importance": 88,
+    "closeness": 24,
+    "volume": 33,
+    "size": 43
+  },
+  {
+    "name": "Karen Bean",
+    "importance": 72,
+    "closeness": 32,
+    "volume": 18,
+    "size": 13
+  },
+  {
+    "name": "Carmen Dale",
+    "importance": 5,
+    "closeness": 37,
+    "volume": 38,
+    "size": 26
+  },
+  {
+    "name": "Freda Meadows",
+    "importance": 76,
+    "closeness": 56,
+    "volume": 40,
+    "size": 47
+  },
+  {
+    "name": "Debora Jordan",
+    "importance": 54,
+    "closeness": 14,
+    "volume": 93,
+    "size": 16
+  },
+  {
+    "name": "Lina Cantrell",
+    "importance": 62,
+    "closeness": 95,
+    "volume": 87,
+    "size": 55
+  },
+  {
+    "name": "Dianne David",
+    "importance": 61,
+    "closeness": 66,
+    "volume": 39,
+    "size": 98
+  },
+  {
+    "name": "Cummings Manning",
+    "importance": 53,
+    "closeness": 11,
+    "volume": 91,
+    "size": 15
+  },
+  {
+    "name": "Hayes Ferguson",
+    "importance": 38,
+    "closeness": 54,
+    "volume": 98,
+    "size": 7
+  },
+  {
+    "name": "Eloise Parker",
+    "importance": 62,
+    "closeness": 45,
+    "volume": 88,
+    "size": 40
+  },
+  {
+    "name": "Jeannie Smith",
+    "importance": 5,
+    "closeness": 93,
+    "volume": 80,
+    "size": 1
+  },
+  {
+    "name": "Mitzi Leblanc",
+    "importance": 75,
+    "closeness": 88,
+    "volume": 44,
+    "size": 26
+  },
+  {
+    "name": "Haney Lindsay",
+    "importance": 74,
+    "closeness": 69,
+    "volume": 44,
+    "size": 36
+  },
+  {
+    "name": "Underwood Moses",
+    "importance": 53,
+    "closeness": 69,
+    "volume": 62,
+    "size": 32
+  },
+  {
+    "name": "Tyson Dixon",
+    "importance": 35,
+    "closeness": 37,
+    "volume": 11,
+    "size": 30
+  },
+  {
+    "name": "Michele Perkins",
+    "importance": 39,
+    "closeness": 71,
+    "volume": 58,
+    "size": 61
+  },
+  {
+    "name": "Diaz Lancaster",
+    "importance": 98,
+    "closeness": 64,
+    "volume": 18,
+    "size": 69
+  },
+  {
+    "name": "Howe Silva",
+    "importance": 26,
+    "closeness": 35,
+    "volume": 60,
+    "size": 73
+  },
+  {
+    "name": "Wilcox Mays",
+    "importance": 66,
+    "closeness": 45,
+    "volume": 56,
+    "size": 28
+  },
+  {
+    "name": "Nola Raymond",
+    "importance": 94,
+    "closeness": 34,
+    "volume": 61,
+    "size": 40
+  },
+  {
+    "name": "Baird Robbins",
+    "importance": 79,
+    "closeness": 90,
+    "volume": 21,
+    "size": 9
+  },
+  {
+    "name": "Hensley Sawyer",
+    "importance": 47,
+    "closeness": 85,
+    "volume": 9,
+    "size": 87
+  },
+  {
+    "name": "Norman Middleton",
+    "importance": 54,
+    "closeness": 7,
+    "volume": 51,
+    "size": 97
+  }
+]
