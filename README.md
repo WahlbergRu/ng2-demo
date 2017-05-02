@@ -1,3 +1,7 @@
+# Result
+
+http://joxi.ru/0KAg3x3uQRKXAl
+
 # Ng2Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
