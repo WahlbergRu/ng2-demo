@@ -2,6 +2,24 @@ import { Component, ElementRef, Input } from '@angular/core';
 import { SpiderFilterService } from '../../filters/spider-filter/spider-filter.service'
 import * as d3 from 'd3';
 
+export interface spiderPathInterface {
+  closeness?: number;
+  importance?: number;
+  index?: number;
+  name?: string;
+  size?: number;
+  toAlpha?: number;
+  toX?: number;
+  toY?: number;
+  volume?: number;
+  vx?: number;
+  vy?: number;
+  x?: number;
+  y?: number;
+  parent?: any;
+  label?: string;
+}
+
 @Component({
   selector: 'app-spider',
   templateUrl: 'spider.component.html',
@@ -69,7 +87,7 @@ export class SpiderComponent {
       data.svgContainer['circleNode'] = d3.select(circle);
 
       data.svgContainer['circleNode']
-        .attr("transform", (d:any) => {
+        .attr("transform", (d:spiderPathInterface) => {
           let coordinateFromCenter = data.collide(-Math.atan2(d.y-data.svgContainer['height']/2, d.x-data.svgContainer['width']/2), d.closeness, 20);
           if (!d.parent){
             d.toX = coordinateFromCenter.x*data.zoom;
@@ -86,7 +104,7 @@ export class SpiderComponent {
 
       data.svgContainer['circleNode']
         .selectAll('path')
-        .attr("d", (d:any) => {
+        .attr("d", (d:spiderPathInterface) => {
           let
             dx = -d.toX,
             dy = -d.toY,
@@ -146,10 +164,10 @@ export class SpiderComponent {
      */
     this.svgContainer['circles'] = this.svgContainer['gCircles']
       .append("circle")
-      .attr("r", (d:any)=>{ return d.volume/this.zoom; })
-      .text((d:any)=>{return d.label})
-      .style("fill", (d:any)=>{ return  d3.rgb(color).toString(); })
-      .style("fill-opacity", (d:any)=>{ return  d.importance/100; });
+      .attr("r", (d:spiderPathInterface)=>{ return d.volume/this.zoom; })
+      .text((d:spiderPathInterface)=>{return d.label})
+      .style("fill", (d:spiderPathInterface)=>{ return  d3.rgb(color).toString(); })
+      .style("fill-opacity", (d:spiderPathInterface)=>{ return  d.importance/100; });
 
     /**
      * make text
@@ -158,9 +176,9 @@ export class SpiderComponent {
 
     this.svgContainer['textCircles'] = this.svgContainer['gCircles']
       .append("text")
-      .text((d:any)=>{return d.name;})
-      .attr("fill", (d:any)=>{ return (d.parent)?"#ffffff":color; })
-      .attr("y", (d:any)=>{ return -10 - d.volume/this.zoom; })
+      .text((d:spiderPathInterface)=>{return d.name;})
+      .attr("fill", (d:spiderPathInterface)=>{ return (d.parent)?"#ffffff":color; })
+      .attr("y", (d:spiderPathInterface)=>{ return -10 - d.volume/this.zoom; })
       .attr("alignment-baseline","middle")
       .attr("text-anchor", "middle");
 
@@ -190,7 +208,7 @@ export class SpiderComponent {
         .forceSimulation(data)
         .velocityDecay(1)
         .force("center", d3.forceCenter(this.svgContainer['width'] / 2, this.svgContainer['height'] / 2))
-        .force("collide", d3.forceCollide().radius((d:any) => { return d.volume/this.zoom + 10; }).iterations(20))
+        .force("collide", d3.forceCollide().radius((d:spiderPathInterface) => { return d.volume/this.zoom + 10; }).iterations(20))
         .on("tick", this.tick.bind(null, this));
     }
   }
