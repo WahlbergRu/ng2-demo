@@ -1,6 +1,9 @@
 # Result
 
+Some screen from result in app
+
 http://joxi.ru/0KAg3x3uQRKXAl
+http://joxi.ru/jgmvG0Gikp132a
 
 # Ng2Demo
 
